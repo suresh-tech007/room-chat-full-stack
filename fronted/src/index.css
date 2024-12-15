@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    width: 2px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #323742; /* Background of the track */
+  }
+  
+  /* Customize the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background: #3b393f; /* Color of the scrollbar */
+    border-radius: 10px; /* Round corners */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4b5563; /* Color on hover */
+  }
+
+  /* Autofill ke background aur text color ko override karna */
+input:-webkit-autofill {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 1000px #4b5563 inset !important; /* Input field ka background wahi rakhna jo set hai */
+  -webkit-text-fill-color: #ffffff !important; /* Text color ko theme ke hisaab se set karna */
+}
+
+input:-webkit-autofill:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 1000px #4b5563 inset !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
