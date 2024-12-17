@@ -2,6 +2,9 @@
 
 **Group Chat Application** is a full-stack project that enables real-time communication among multiple users. It uses modern tools and frameworks to deliver seamless, responsive, and secure chat functionality.
 
+## 🚀 Live Demo
+Check out the live demo of the project here: [Live Demo](https://group-chat-realtime.netlify.app/)
+
 ---
 
 ## 🚀 Features
@@ -52,17 +55,17 @@ group-chat/
 ```
 
 ## ⚙️ Setup and Installation
-**Prerequisites
+**Prerequisites**
 Make sure you have the following installed on your machine:
 
-- **Node.js (v14+ recommended)
-- **MongoDB (local or Atlas cloud instance)
+- Node.js (v14+ recommended)
+- MongoDB (local or Atlas cloud instance)
 - Java JDK 17+
 - Maven
 
 ## Backend Setup
 
- ** Clone the repository:
+ ** Clone the repository:  **
 ```bash
 git clone https://github.com/suresh-tech007/room-chat-full-stack.get
 cd group-chat/backend
@@ -74,13 +77,13 @@ jwt.secret=your_jwt_secret
 server.port=8080
 ```
 
-** Build the project using Maven:
+** Build the project using Maven: **
 
 ```bash
 Copy code
 mvn clean install
 ```
-**Run the backend server:
+**Run the backend server:**
 
 ```bash
 mvn spring-boot:run
@@ -88,27 +91,26 @@ mvn spring-boot:run
 ***Backend runs on http://localhost:8080.
 
 ##Frontend Setup
- ** Go to the frontend directory:
+ ** Go to the frontend directory: **
 
 ```bash
 cd ../frontend
 ```
 
-** Install frontend dependencies:
+** Install frontend dependencies: **
 
 ```bash
 npm install
 
 ```
-** Start the frontend development server:
+** Start the frontend development server: **
 
 ```bash
 npm run dev
 ```
-**Frontend runs on http://localhost:5173.
+**Frontend runs on http://localhost:5173. **
 
 ## 🔗 API Endpoints
-**Authentication
 Chat Functionality
 POST /api/rooms/create -Enter the room with password
 POST /api/rooms/login - Create a new chat room and Enter with password
